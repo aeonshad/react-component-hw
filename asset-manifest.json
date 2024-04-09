@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/aeonshad.github.io/react-component-hw/static/css/main.b2202758.css",
-    "main.js": "/aeonshad.github.io/react-component-hw/static/js/main.65f887fd.js",
-    "static/media/verified.svg": "/aeonshad.github.io/react-component-hw/static/media/verified.ac5bf31dcc0dd1587b9b1475c1a274d3.svg",
-    "index.html": "/aeonshad.github.io/react-component-hw/index.html",
-    "static/media/close-outline.svg": "/aeonshad.github.io/react-component-hw/static/media/close-outline.ee578dfe4aed143c49a6dfee2a824710.svg",
-    "main.b2202758.css.map": "/aeonshad.github.io/react-component-hw/static/css/main.b2202758.css.map",
-    "main.65f887fd.js.map": "/aeonshad.github.io/react-component-hw/static/js/main.65f887fd.js.map"
+    "main.css": "/react-component-hw/static/css/main.b2202758.css",
+    "main.js": "/react-component-hw/static/js/main.89d53353.js",
+    "static/media/verified.svg": "/react-component-hw/static/media/verified.ac5bf31dcc0dd1587b9b1475c1a274d3.svg",
+    "index.html": "/react-component-hw/index.html",
+    "static/media/close-outline.svg": "/react-component-hw/static/media/close-outline.ee578dfe4aed143c49a6dfee2a824710.svg",
+    "main.b2202758.css.map": "/react-component-hw/static/css/main.b2202758.css.map",
+    "main.89d53353.js.map": "/react-component-hw/static/js/main.89d53353.js.map"
   },
   "entrypoints": [
     "static/css/main.b2202758.css",
-    "static/js/main.65f887fd.js"
+    "static/js/main.89d53353.js"
   ]
 }
