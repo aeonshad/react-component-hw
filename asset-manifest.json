@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/react-component-hw/static/css/main.b2202758.css",
-    "main.js": "/react-component-hw/static/js/main.89d53353.js",
+    "main.css": "/react-component-hw/static/css/main.74247480.css",
+    "main.js": "/react-component-hw/static/js/main.4615ef1e.js",
     "static/media/verified.svg": "/react-component-hw/static/media/verified.ac5bf31dcc0dd1587b9b1475c1a274d3.svg",
     "index.html": "/react-component-hw/index.html",
     "static/media/close-outline.svg": "/react-component-hw/static/media/close-outline.ee578dfe4aed143c49a6dfee2a824710.svg",
-    "main.b2202758.css.map": "/react-component-hw/static/css/main.b2202758.css.map",
-    "main.89d53353.js.map": "/react-component-hw/static/js/main.89d53353.js.map"
+    "main.74247480.css.map": "/react-component-hw/static/css/main.74247480.css.map",
+    "main.4615ef1e.js.map": "/react-component-hw/static/js/main.4615ef1e.js.map"
   },
   "entrypoints": [
-    "static/css/main.b2202758.css",
-    "static/js/main.89d53353.js"
+    "static/css/main.74247480.css",
+    "static/js/main.4615ef1e.js"
   ]
 }
