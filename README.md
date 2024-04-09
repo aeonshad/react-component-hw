@@ -1,70 +1,90 @@
-# Getting Started with Create React App
+# React Modal Component
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A simple and customizable modal window component for React applications.
 
-## Available Scripts
+## Table of Contents
 
-In the project directory, you can run:
+-   [Installation](#installation)
+-   [Usage](#usage)
+-   [Props](#props)
+-   [Example](#example)
+-   [Styles](#styles)
+-   [License](#license)
 
-### `npm start`
+## Installation
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+To install the modal component in your React project, you can use npm or yarn:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+```bash
+npm install react-modal-hw
+```
 
-### `npm test`
+or
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```bash
+yarn add react-modal-hw
+```
 
-### `npm run build`
+## Usage
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+To use the Modal component in your React application, import it into your file and incorporate it into your JSX or JS code.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```jsx
+import React, { useState } from 'react';
+import Modal from 'react-modal-hw';
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+const App = () => {
+    const [isOpen, setIsOpen] = useState(false);
 
-### `npm run eject`
+    const toggleModal = () => {
+        setIsOpen(!isOpen);
+    };
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+    return (
+        <div>
+            <button onClick={toggleModal}>Open Modal</button>
+            <Modal isOpen={isOpen} onClose={toggleModal}>
+                <h2>Modal Title</h2>
+                <p>This is the content of the modal.</p>
+                <button onClick={toggleModal}>Close Modal</button>
+            </Modal>
+        </div>
+    );
+};
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+export default App;
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Props
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+The Modal component accepts the following props:
 
-## Learn More
+-   `isOpen` (required): A boolean indicating whether the modal should be displayed or not.
+-   `onClose` (required): A callback function called when the modal should be closed.
+-   `children`: The elements to be displayed inside the modal.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Example
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+You can find an example of using the Modal component in the `src/App.jsx` file. To run the example, follow these steps:
 
-### Code Splitting
+1. Clone the repository.
+2. Navigate to the project directory in the terminal.
+3. Run `npm install` or `yarn install` to install the dependencies.
+4. Run `npm start` or `yarn start` to start the application.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Styles
 
-### Analyzing the Bundle Size
+The Modal component does not provide default styles for the modal window itself. You are free to add your own CSS styles to customize the appearance of the modal as needed. However, the component may include default styles for the overlay (the dark background that appears behind the modal), the window, and the close button. If you wish to customize these styles, you can use the following CSS classes:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+-   `modal-overlay`: Class for the modal overlay.
+-   `modal-container`: Class for the modal window itself.
+-   `modal-btn-close`: Class for the close button of the modal.
+-   `modal-btn-close-icon`: Class for the close button icon of the modal.
+-   `modal-btn-close-icon:hover`: Pseudo-class when hovering over the close button icon of the modal.
 
-### Making a Progressive Web App
+## License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+This project is licensed under the [MIT](LICENSE).
 
-### Advanced Configuration
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
