@@ -9,7 +9,7 @@
         "type": "git",
         "url": "https://github.com/aeonshad/react-component-hw"
     },
-    "homepage": "https:/aeonshad.github.io/react-component-hw",
+    "homepage": "http:/aeonshad.github.io/react-component-hw",
     "main": "dist/modal.js",
     "files": [
         "dist/*"
@@ -29,10 +29,11 @@
     },
     "scripts": {
         "start": "react-scripts start",
-        "build": "NODE_ENV=production babel src/components --out-dir dist --copy-files",
+        "dist": "NODE_ENV=production babel src/components --out-dir dist --copy-files",
+        "build": "react-scripts build",
         "test": "react-scripts test",
         "eject": "react-scripts eject",
-        "predeploy": "react-scripts build",
+        "predeploy": "npm run build",
         "deploy": "gh-pages -d build"
     },
     "devDependencies": {
