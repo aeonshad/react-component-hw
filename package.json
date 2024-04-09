@@ -5,6 +5,22 @@
     "description": "A simple and customizable modal window component for React applications.",
     "author": "Aeonshad",
     "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/aeonshad/react-component-hw"
+    },
+    "main": "dist/modal.js",
+    "files": [
+        "dist/*"
+    ],
+    "keywords": [
+        "react",
+        "modal",
+        "component",
+        "openclassroom",
+        "HRnet",
+        "WealthHealth"
+    ],
     "dependencies": {
         "@testing-library/jest-dom": "^5.17.0",
         "@testing-library/react": "^13.4.0",
