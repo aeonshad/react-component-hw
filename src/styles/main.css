@@ -32,13 +32,9 @@ body,
     padding-bottom: 1rem;
     padding-left: 2rem;
     padding-right: 2rem;
-    border-radius: 1.7rem;
-    border: 3px solid #1d3b4e;
-    background-color: #28536b;
     color: white;
     font-size: 26px;
     box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
-    font-family: 'Calibri', sans-serif;
 }
 
 .modal-btn-open:hover {
@@ -80,34 +76,25 @@ body,
 .modal-link {
     margin-top: 1.8rem;
     font-size: 18px;
-    font-family: 'Calibri', sans-serif;
     padding-top: 0.7rem;
     padding-bottom: 0.7rem;
-    border-radius: 0.4rem;
-    margin-left: 1rem;
-    text-decoration: none;
+    padding-left: 1.7rem;
+    padding-right: 1.7rem;
 }
 
 .primary {
     background-color: #316683;
     border: 1px solid #316683;
-    padding-left: 1.7rem;
-    padding-right: 1.7rem;
+    font-family: 'Calibri', sans-serif;
     color: white;
+    border-radius: 0.4rem;
 }
 
-.secondary {
-    background-color: #ffffff;
-    border: 1px solid rgb(160, 160, 160);
-    padding-left: 1.2rem;
-    padding-right: 1.2rem;
-    color: rgb(82, 82, 82);
-}
-
-.modal-link:hover {
+.primary:hover {
     background-color: #1b3a4a;
     border: 1px solid #1b3a4a;
     color: white;
+    cursor: pointer;
 }
 
 /*#endregion*/

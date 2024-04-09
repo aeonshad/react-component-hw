@@ -13,7 +13,7 @@ function App() {
 
     return (
         <main className="main-container">
-            <button className="modal-btn-open" onClick={toggleModal}>
+            <button className="modal-btn-open primary" onClick={toggleModal}>
                 Open Modal
             </button>
             <Modal isOpen={isOpen} onClose={toggleModal}>
@@ -22,12 +22,9 @@ function App() {
                     <h1 className="modal-title">Congratulations!</h1>
                     <p className="modal-text">You are ready to use modal-component-hw</p>
                     <div className="modal-link-container">
-                        <a href="#" className="modal-link secondary" onClick={toggleModal}>
-                            Return
-                        </a>
-                        <a href="/" className="modal-link primary">
-                            Refresh
-                        </a>
+                        <button className="modal-link primary" onClick={toggleModal}>
+                            Back
+                        </button>
                     </div>
                 </div>
             </Modal>
