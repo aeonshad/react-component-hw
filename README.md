@@ -4,6 +4,8 @@
 
 Please use [react-modal-component-hw](https://www.npmjs.com/package/react-modal-component-hw) instead.
 
+---
+
 ![status](https://img.shields.io/badge/Status-Deprecated-red.svg)
 <a href='https://github.com/aeonshad/react-component-hw/blob/main/README.fr.md'><img alt="Static Badge" src="https://img.shields.io/badge/version-French%7CFran%C3%A7ais-%2322802b?style=flat&logo=readme&logoColor=%23b3bd68&label=Readme"></a>
 <a href='https://fr.react.dev/'><img alt="Static Badge" src="https://img.shields.io/badge/version-18.2.0-blue?style=flat&logo=React&label=React"></a>
