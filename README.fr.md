@@ -1,9 +1,16 @@
-# Composant React Modale
+# ⚠️ Dépréciation du package
 
+**Ce package est déprécié et ne sera plus maintenu.**
+
+Veuillez utiliser [react-modal-component-hw](https://www.npmjs.com/package/react-modal-component-hw) à la place.
+
+![statut](https://img.shields.io/badge/Statut-Déprécié-red.svg)
 <a href='https://github.com/aeonshad/react-component-hw/blob/main/README.md'><img alt="Static Badge" src="https://img.shields.io/badge/version-English%7CAnglais-%2322802b?style=flat&logo=readme&logoColor=%23b3bd68&label=Readme"></a>
 <a href='https://fr.react.dev/'><img alt="Static Badge" src="https://img.shields.io/badge/version-18.2.0-blue?style=flat&logo=React&label=React"></a>
 <a href='https://www.npmjs.com/'><img alt="Static Badge" src="https://img.shields.io/badge/version-10.2.4-red?style=flat&logo=NPM&label=NPM"></a>
 <a href='https://github.com/aeonshad/react-component-hw/blob/main/LICENSE'><img alt="Static Badge" src="https://img.shields.io/badge/version-MIT-%23cfb232?style=flat&logoColor=%23b3bd68&label=License"></a>
+
+---
 
 Un composant de fenêtre modale simple et personnalisable pour les applications React.
 
@@ -21,13 +28,13 @@ Un composant de fenêtre modale simple et personnalisable pour les applications 
 Pour installer le composant Modal dans votre projet React, vous pouvez utiliser npm ou yarn :
 
 ```bash
-npm install react-modal-hw
+npm install react-component-hw
 ```
 
 ou
 
 ```bash
-yarn add react-modal-hw
+yarn add react-component-hw
 ```
 
 ## Utilisation
@@ -36,7 +43,7 @@ Pour utiliser le composant Modal dans votre application React, importez-le dans 
 
 ```jsx
 import React, { useState } from 'react';
-import Modal from 'react-modal-hw';
+import Modal from 'react-component-hw';
 
 const App = () => {
     const [isOpen, setIsOpen] = useState(false);

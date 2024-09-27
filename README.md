@@ -1,5 +1,10 @@
-# React Modal Component
+# ⚠️ Package Deprecation
 
+**This package is deprecated and will no longer be maintained.**
+
+Please use [react-modal-component-hw](https://www.npmjs.com/package/react-modal-component-hw) instead.
+
+![status](https://img.shields.io/badge/Status-Deprecated-red.svg)
 <a href='https://github.com/aeonshad/react-component-hw/blob/main/README.fr.md'><img alt="Static Badge" src="https://img.shields.io/badge/version-French%7CFran%C3%A7ais-%2322802b?style=flat&logo=readme&logoColor=%23b3bd68&label=Readme"></a>
 <a href='https://fr.react.dev/'><img alt="Static Badge" src="https://img.shields.io/badge/version-18.2.0-blue?style=flat&logo=React&label=React"></a>
 <a href='https://www.npmjs.com/'><img alt="Static Badge" src="https://img.shields.io/badge/version-10.2.4-red?style=flat&logo=NPM&label=NPM"></a>
@@ -21,13 +26,13 @@ A simple and customizable modal window component for React applications.
 To install the modal component in your React project, you can use npm or yarn:
 
 ```bash
-npm install react-modal-hw
+npm install react-component-hw
 ```
 
 or
 
 ```bash
-yarn add react-modal-hw
+yarn add react-component-hw
 ```
 
 ## Usage
@@ -36,7 +41,7 @@ To use the Modal component in your React application, import it into your file a
 
 ```jsx
 import React, { useState } from 'react';
-import Modal from 'react-modal-hw';
+import Modal from 'react-component-hw';
 
 const App = () => {
     const [isOpen, setIsOpen] = useState(false);

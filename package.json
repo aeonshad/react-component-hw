@@ -1,6 +1,6 @@
 {
     "name": "react-component-hw",
-    "version": "1.0.3",
+    "version": "1.0.5",
     "private": false,
     "description": "A simple and customizable modal window component for React applications.",
     "author": "Aeonshad",
@@ -10,7 +10,8 @@
         "url": "https://github.com/aeonshad/react-component-hw"
     },
     "homepage": "http:/aeonshad.github.io/react-component-hw",
-    "main": "dist/modal.js",
+    "main": "dist/Modal.js",
+    "module": "dist/Modal.js",
     "files": [
         "dist/*"
     ],
